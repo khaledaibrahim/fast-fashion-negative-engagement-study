@@ -148,13 +148,3 @@ The main analysis outputs that support this document are:
 ## Public Data and Privacy
 
 The GitHub-facing review-level dataset is a sanitized public export. It excludes direct identity and contact columns such as reviewer names, email fields, and phone fields. Review text is also redacted for email addresses and phone numbers before export so that the public repository contains reproducible analysis outputs without exposing identifiable reviewer information. Because GitHub may not preview larger CSV files inline, the repository also includes a zipped copy for easier download.
-
-## Package Status
-
-The Study 1 package is now assembled as a reproducible repository that includes:
-
-1. The full analysis code and configuration.
-2. Final figures and tables.
-3. A sanitized public review-level export for GitHub.
-4. A publication workbook.
-5. A Word manuscript-support document and figure appendix PDF.
