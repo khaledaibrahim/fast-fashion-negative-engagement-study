@@ -1,0 +1,22 @@
+model,topic_id,topic_label,coherence_cv
+LDA,0,cloth | store | shop,0.5443630511008009
+LDA,1,item | customer | service,0.4920777499706245
+LDA,2,size | order | wrong,0.4510826828790889
+LDA,3,order | shipping | receive,0.5898792590428339
+LDA,4,customer | service | store,0.5786644367783534
+LDA,5,parcel | order | service,0.588551847704703
+LDA,overall,overall,0.540769837912734
+BERTopic,-1,order | service | customer,0.5472572591616808
+BERTopic,0,return | refund | item,0.5318568816640166
+BERTopic,1,shipping | order | place,0.578260065815884
+BERTopic,2,store | exchang | staff,0.5604674040970017
+BERTopic,3,card | gift | pai,0.5497134445469638
+BERTopic,4,cloth | quality | price,0.5398457440790986
+BERTopic,5,worst | service | customer,0.4993466452430182
+BERTopic,6,wrong | sent | item,0.45187791297619545
+BERTopic,7,delivery | deliv | order,0.6307670411684179
+BERTopic,8,parcel | deliv | arriv,0.5762132641271327
+BERTopic,9,cancel | order | item,0.46604541951692957
+BERTopic,10,size | jean | cloth,0.49178103147654023
+BERTopic,11,christma | stock | order,0.6338791883362755
+BERTopic,overall,overall,0.542870100169935

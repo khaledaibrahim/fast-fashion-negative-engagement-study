@@ -1,0 +1,17 @@
+brand,emotion,n_reviews,pct_reviews
+H&M,frustration,304,18.29121540312876
+H&M,disappointment,157,9.446450060168472
+H&M,anger,150,9.025270758122744
+H&M,disgust,64,3.8507821901323704
+SHEIN,frustration,268,26.352015732546707
+SHEIN,disappointment,92,9.04621435594887
+SHEIN,anger,51,5.014749262536873
+SHEIN,disgust,45,4.424778761061947
+Urban Outfitters,frustration,127,12.586719524281467
+Urban Outfitters,disappointment,76,7.5322101090188305
+Urban Outfitters,anger,26,2.576808721506442
+Urban Outfitters,disgust,20,1.9821605550049555
+ZARA,frustration,174,20.0
+ZARA,disgust,85,9.770114942528735
+ZARA,anger,82,9.425287356321839
+ZARA,disappointment,78,8.96551724137931

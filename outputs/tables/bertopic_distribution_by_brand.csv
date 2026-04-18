@@ -1,0 +1,49 @@
+brand,bertopic_topic_label,n_reviews,pct_reviews,publication_label
+H&M,shipping | order | place,287,33.645955451348186,Shipping Delays & Online Fulfilment
+H&M,store | exchang | staff,113,13.24736225087925,store | exchang | staff
+H&M,cloth | quality | price,73,8.558030480656507,Poor Quality & Cheap Products
+H&M,worst | service | customer,66,7.737397420867526,worst | service | customer
+H&M,return | refund | item,65,7.620164126611958,return | refund | item
+H&M,card | gift | pai,61,7.151230949589683,Gift Card & Store Credit Issues
+H&M,size | jean | cloth,54,6.330597889800703,size | jean | cloth
+H&M,delivery | deliv | order,47,5.509964830011723,delivery | deliv | order
+H&M,wrong | sent | item,32,3.7514654161781946,wrong | sent | item
+H&M,cancel | order | item,25,2.9308323563892147,cancel | order | item
+H&M,parcel | deliv | arriv,19,2.2274325908558033,parcel | deliv | arriv
+H&M,christma | stock | order,11,1.2895662368112544,christma | stock | order
+ZARA,store | exchang | staff,208,42.79835390946502,store | exchang | staff
+ZARA,cloth | quality | price,66,13.580246913580247,Poor Quality & Cheap Products
+ZARA,worst | service | customer,63,12.962962962962964,worst | service | customer
+ZARA,return | refund | item,61,12.551440329218106,return | refund | item
+ZARA,shipping | order | place,23,4.732510288065844,Shipping Delays & Online Fulfilment
+ZARA,delivery | deliv | order,21,4.320987654320987,delivery | deliv | order
+ZARA,card | gift | pai,16,3.292181069958848,Gift Card & Store Credit Issues
+ZARA,size | jean | cloth,10,2.05761316872428,size | jean | cloth
+ZARA,wrong | sent | item,7,1.440329218106996,wrong | sent | item
+ZARA,parcel | deliv | arriv,5,1.02880658436214,parcel | deliv | arriv
+ZARA,cancel | order | item,3,0.6172839506172839,cancel | order | item
+ZARA,christma | stock | order,3,0.6172839506172839,christma | stock | order
+SHEIN,return | refund | item,221,51.63551401869159,return | refund | item
+SHEIN,parcel | deliv | arriv,54,12.616822429906541,parcel | deliv | arriv
+SHEIN,wrong | sent | item,29,6.775700934579439,wrong | sent | item
+SHEIN,cloth | quality | price,25,5.841121495327103,Poor Quality & Cheap Products
+SHEIN,delivery | deliv | order,25,5.841121495327103,delivery | deliv | order
+SHEIN,shipping | order | place,25,5.841121495327103,Shipping Delays & Online Fulfilment
+SHEIN,card | gift | pai,18,4.205607476635514,Gift Card & Store Credit Issues
+SHEIN,worst | service | customer,14,3.2710280373831777,worst | service | customer
+SHEIN,size | jean | cloth,13,3.0373831775700935,size | jean | cloth
+SHEIN,christma | stock | order,2,0.4672897196261682,christma | stock | order
+SHEIN,store | exchang | staff,2,0.4672897196261682,store | exchang | staff
+SHEIN,cancel | order | item,0,0.0,cancel | order | item
+Urban Outfitters,card | gift | pai,96,22.325581395348838,Gift Card & Store Credit Issues
+Urban Outfitters,cancel | order | item,71,16.511627906976745,cancel | order | item
+Urban Outfitters,christma | stock | order,63,14.651162790697674,christma | stock | order
+Urban Outfitters,wrong | sent | item,49,11.395348837209303,wrong | sent | item
+Urban Outfitters,parcel | deliv | arriv,33,7.674418604651163,parcel | deliv | arriv
+Urban Outfitters,shipping | order | place,28,6.511627906976744,Shipping Delays & Online Fulfilment
+Urban Outfitters,return | refund | item,24,5.5813953488372094,return | refund | item
+Urban Outfitters,delivery | deliv | order,20,4.651162790697675,delivery | deliv | order
+Urban Outfitters,cloth | quality | price,13,3.0232558139534884,Poor Quality & Cheap Products
+Urban Outfitters,size | jean | cloth,13,3.0232558139534884,size | jean | cloth
+Urban Outfitters,store | exchang | staff,13,3.0232558139534884,store | exchang | staff
+Urban Outfitters,worst | service | customer,7,1.627906976744186,worst | service | customer

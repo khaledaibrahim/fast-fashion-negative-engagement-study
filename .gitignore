@@ -1,0 +1,19 @@
+.DS_Store
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Local experiment artifacts
+outputs/figures/*_refresh.png
+outputs/figures/*_v2.png
+outputs/figures/*_v3.png
+
+# Local spreadsheet and plotting caches
+.matplotlib/
+
+# Keep generated publication outputs under version control only if we explicitly choose to.
+data/processed/
+outputs/tables/study1_analysis_workbook.xlsx

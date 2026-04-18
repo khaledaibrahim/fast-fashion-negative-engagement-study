@@ -1,0 +1,29 @@
+brand,aspect_top_category,n_reviews,pct_reviews
+H&M,delivery_logistics,906,54.51263537906137
+H&M,customer_service,275,16.54632972322503
+H&M,refunds_returns,202,12.154031287605294
+H&M,product_quality,143,8.604091456077017
+H&M,in_store_experience,62,3.730445246690734
+H&M,unclassified,62,3.730445246690734
+H&M,trust_reputation,12,0.7220216606498195
+ZARA,customer_service,302,34.71264367816092
+ZARA,delivery_logistics,222,25.517241379310345
+ZARA,refunds_returns,165,18.96551724137931
+ZARA,product_quality,94,10.804597701149426
+ZARA,in_store_experience,47,5.402298850574713
+ZARA,unclassified,32,3.67816091954023
+ZARA,trust_reputation,8,0.9195402298850575
+SHEIN,delivery_logistics,470,46.214355948869226
+SHEIN,refunds_returns,206,20.255653883972467
+SHEIN,customer_service,160,15.732546705998033
+SHEIN,product_quality,123,12.094395280235988
+SHEIN,unclassified,38,3.736479842674533
+SHEIN,trust_reputation,20,1.966568338249754
+SHEIN,in_store_experience,0,0.0
+Urban Outfitters,delivery_logistics,542,53.71655104063429
+Urban Outfitters,refunds_returns,178,17.641228939544103
+Urban Outfitters,product_quality,104,10.307234886025768
+Urban Outfitters,customer_service,95,9.415262636273539
+Urban Outfitters,unclassified,74,7.333994053518335
+Urban Outfitters,in_store_experience,13,1.288404360753221
+Urban Outfitters,trust_reputation,3,0.29732408325074333

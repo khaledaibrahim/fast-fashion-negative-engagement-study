@@ -1,0 +1,19 @@
+model,topic_id,publication_label,primary_construct,interpretation
+LDA,0,"In-Store Experience, Exchanges & Returns",Low Service Quality,"Store visits, exchange attempts, and in-person return friction reflect low service quality in physical retail touchpoints."
+LDA,1,Customer Service Failures & Staff Conduct,Low Service Quality,"Rude staff, poor support, and failed complaint handling indicate frontline customer-service breakdowns."
+LDA,2,"Product Quality, Size & Wrong Items",Low Service Quality,"Wrong items, sizing problems, and poor product quality reflect fulfilment and outcome-quality failures."
+LDA,3,"Refunds, Contact & Service Recovery",Negative Past Experience,"Refund disputes, repeated contact attempts, and unresolved service recovery reflect accumulated negative past experience."
+LDA,4,"Order Delays, Shipping & Cancellation",Low Service Quality,"Order delays, shipping disruption, and cancellation failures capture logistics-related low service quality."
+LDA,5,"Delivery, Non-Receipt & Parcel Problems",Low Service Quality,"Non-delivery, delayed arrival, and parcel problems indicate severe fulfilment failure and unmet service promises."
+BERTopic,,Gift Card & Store Credit Issues,Low Service Quality,Gift-card and store-credit disputes indicate payment and restitution service failures.
+BERTopic,,Poor Quality & Cheap Products,Low Service Quality,Poor product quality and cheapness reflect core product-related service failure.
+BERTopic,,Shipping Delays & Online Fulfilment,Low Service Quality,Shipping and fulfilment delays indicate operational low service quality in online ordering.
+BERTopic,,cancel | order | item,,
+BERTopic,,christma | stock | order,,
+BERTopic,,delivery | deliv | order,,
+BERTopic,,parcel | deliv | arriv,,
+BERTopic,,return | refund | item,,
+BERTopic,,size | jean | cloth,,
+BERTopic,,store | exchang | staff,,
+BERTopic,,worst | service | customer,,
+BERTopic,,wrong | sent | item,,

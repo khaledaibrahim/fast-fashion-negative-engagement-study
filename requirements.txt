@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+openpyxl
+PyYAML
+vaderSentiment
+bertopic
+sentence-transformers
+umap-learn
+hdbscan
+gensim

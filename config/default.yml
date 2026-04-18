@@ -1,0 +1,211 @@
+data:
+  source_excel: "/Users/khaledibrahim/Library/CloudStorage/OneDrive-Personal/University of Otago Machines/Onedrive/Publications/Meera Research Project/Copy of brands data (1) Meera project.xlsx"
+  sheet_name: "brands data (1)"
+
+analysis:
+  min_star: 1
+  max_star: 3
+  min_tokens: 5
+  random_state: 42
+  lda_topics: 6
+  lda_top_words: 10
+  max_features: 2500
+  bertopic_top_words: 10
+  bertopic_min_topic_size: 75
+  bertopic_embedding_dim: 100
+  brand_order:
+    - H&M
+    - ZARA
+    - SHEIN
+    - Urban Outfitters
+
+publication_labels:
+  lda:
+    0: "In-Store Experience, Exchanges & Returns"
+    1: "Customer Service Failures & Staff Conduct"
+    2: "Product Quality, Size & Wrong Items"
+    3: "Refunds, Contact & Service Recovery"
+    4: "Order Delays, Shipping & Cancellation"
+    5: "Delivery, Non-Receipt & Parcel Problems"
+  bertopic:
+    -1: "Mixed Negative Complaints"
+    0: "Shipping Delays & Online Fulfilment"
+    1: "In-Store Staff, Policy & Queue Problems"
+    2: "SHEIN Logistics, Replies & Account Issues"
+    3: "Order Cancellation & Fulfilment Breakdown"
+    4: "Poor Quality & Cheap Products"
+    5: "Premium Delivery & Courier Failure"
+    6: "Non-Delivery & Missing Parcel"
+    7: "Gift Card & Store Credit Issues"
+    8: "Wrong Item & Wrong Size"
+    9: "Severe Service Failure"
+    10: "Bad Experience & Negative Engagement"
+
+construct_mapping:
+  lda:
+    0:
+      primary_construct: "Low Service Quality"
+      interpretation: "Store visits, exchange attempts, and in-person return friction reflect low service quality in physical retail touchpoints."
+    1:
+      primary_construct: "Low Service Quality"
+      interpretation: "Rude staff, poor support, and failed complaint handling indicate frontline customer-service breakdowns."
+    2:
+      primary_construct: "Low Service Quality"
+      interpretation: "Wrong items, sizing problems, and poor product quality reflect fulfilment and outcome-quality failures."
+    3:
+      primary_construct: "Negative Past Experience"
+      interpretation: "Refund disputes, repeated contact attempts, and unresolved service recovery reflect accumulated negative past experience."
+    4:
+      primary_construct: "Low Service Quality"
+      interpretation: "Order delays, shipping disruption, and cancellation failures capture logistics-related low service quality."
+    5:
+      primary_construct: "Low Service Quality"
+      interpretation: "Non-delivery, delayed arrival, and parcel problems indicate severe fulfilment failure and unmet service promises."
+  bertopic:
+    -1:
+      primary_construct: "NPE"
+      interpretation: "The outlier cluster captures diffuse but repeated negative complaints that often reflect accumulated poor experiences."
+    0:
+      primary_construct: "LSQ"
+      interpretation: "Shipping and fulfilment delays indicate operational low service quality in online ordering."
+    1:
+      primary_construct: "LSQ"
+      interpretation: "Store manager, receipt, and policy issues reflect in-store service quality breakdowns."
+    2:
+      primary_construct: "NPE"
+      interpretation: "Repeated SHEIN-specific logistics and reply failures indicate accumulated negative past experiences."
+    3:
+      primary_construct: "NPE"
+      interpretation: "Order cancellation problems reflect unresolved service failures that accumulate into negative experience."
+    4:
+      primary_construct: "LSQ"
+      interpretation: "Poor product quality and cheapness reflect core product-related service failure."
+    5:
+      primary_construct: "LSQ"
+      interpretation: "Premium delivery and courier failure indicate unmet service promises and logistics breakdown."
+    6:
+      primary_construct: "NPE"
+      interpretation: "Non-delivery and missing parcels often reflect repeated unresolved failures and heightened consumer memory of harm."
+    7:
+      primary_construct: "LSQ"
+      interpretation: "Gift-card and store-credit disputes indicate payment and restitution service failures."
+    8:
+      primary_construct: "LSQ"
+      interpretation: "Wrong-item and wrong-size complaints reflect fulfilment and product-quality failures."
+    9:
+      primary_construct: "BH"
+      interpretation: "Highly severe complaint language signals strong aversive emotion approaching brand hate."
+    10:
+      primary_construct: "NBE"
+      interpretation: "Explicit bad-experience narratives reflect active negative engagement with the brand."
+
+sentiment:
+  positive_threshold: 0.05
+  negative_threshold: -0.05
+
+aspects:
+  delivery_logistics:
+    - delivery
+    - delivered
+    - shipping
+    - parcel
+    - package
+    - courier
+    - dispatch
+    - tracking
+    - arrived
+    - late
+    - delay
+    - delayed
+    - order
+  refunds_returns:
+    - refund
+    - refunded
+    - return
+    - returned
+    - exchange
+    - cancel
+    - cancelled
+    - voucher
+    - credit
+    - reimbursement
+  customer_service:
+    - customer service
+    - support
+    - staff
+    - manager
+    - rude
+    - helpful
+    - response
+    - contact
+    - replied
+    - phone
+    - email
+    - chat
+  product_quality:
+    - quality
+    - damaged
+    - defect
+    - defective
+    - broken
+    - cheap
+    - fabric
+    - sizing
+    - size
+    - fit
+    - material
+    - item
+  in_store_experience:
+    - store
+    - in store
+    - fitting room
+    - queue
+    - cashier
+    - checkout
+    - shop assistant
+    - branch
+  trust_reputation:
+    - scam
+    - fraud
+    - dishonest
+    - lied
+    - misleading
+    - trust
+    - never again
+    - avoid
+    - hate
+    - boycott
+
+emotions:
+  anger:
+    - angry
+    - anger
+    - furious
+    - enraged
+    - annoyed
+    - ridiculous
+    - unacceptable
+    - outraged
+  disgust:
+    - disgust
+    - disgusting
+    - gross
+    - revolting
+    - filthy
+    - appalling
+  disappointment:
+    - disappointed
+    - disappointing
+    - let down
+    - regret
+    - upset
+    - dissatisfied
+  frustration:
+    - frustrating
+    - frustration
+    - impossible
+    - waiting
+    - useless
+    - unhelpful
+    - no response
+    - ignored

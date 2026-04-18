@@ -1,0 +1,25 @@
+brand,dominant_topic_label,n_reviews,pct_reviews,publication_label
+H&M,order | shipping | receive,595,35.80024067388688,"Refunds, Contact & Service Recovery"
+H&M,item | customer | service,299,17.99037304452467,Customer Service Failures & Staff Conduct
+H&M,customer | service | store,262,15.764139590854393,"Order Delays, Shipping & Cancellation"
+H&M,parcel | order | service,206,12.394705174488568,"Delivery, Non-Receipt & Parcel Problems"
+H&M,cloth | store | shop,202,12.154031287605294,"In-Store Experience, Exchanges & Returns"
+H&M,size | order | wrong,98,5.896510228640192,"Product Quality, Size & Wrong Items"
+ZARA,customer | service | store,348,40.0,"Order Delays, Shipping & Cancellation"
+ZARA,item | customer | service,196,22.528735632183906,Customer Service Failures & Staff Conduct
+ZARA,cloth | store | shop,156,17.93103448275862,"In-Store Experience, Exchanges & Returns"
+ZARA,parcel | order | service,107,12.298850574712644,"Delivery, Non-Receipt & Parcel Problems"
+ZARA,order | shipping | receive,47,5.402298850574713,"Refunds, Contact & Service Recovery"
+ZARA,size | order | wrong,16,1.839080459770115,"Product Quality, Size & Wrong Items"
+SHEIN,parcel | order | service,364,35.79154375614553,"Delivery, Non-Receipt & Parcel Problems"
+SHEIN,item | customer | service,347,34.11996066863323,Customer Service Failures & Staff Conduct
+SHEIN,order | shipping | receive,121,11.897738446411013,"Refunds, Contact & Service Recovery"
+SHEIN,size | order | wrong,98,9.636184857423796,"Product Quality, Size & Wrong Items"
+SHEIN,cloth | store | shop,65,6.391347099311701,"In-Store Experience, Exchanges & Returns"
+SHEIN,customer | service | store,22,2.1632251720747298,"Order Delays, Shipping & Cancellation"
+Urban Outfitters,order | shipping | receive,460,45.58969276511397,"Refunds, Contact & Service Recovery"
+Urban Outfitters,parcel | order | service,200,19.821605550049554,"Delivery, Non-Receipt & Parcel Problems"
+Urban Outfitters,size | order | wrong,117,11.595639246778989,"Product Quality, Size & Wrong Items"
+Urban Outfitters,item | customer | service,100,9.910802775024777,Customer Service Failures & Staff Conduct
+Urban Outfitters,customer | service | store,80,7.928642220019822,"Order Delays, Shipping & Cancellation"
+Urban Outfitters,cloth | store | shop,52,5.153617443012884,"In-Store Experience, Exchanges & Returns"

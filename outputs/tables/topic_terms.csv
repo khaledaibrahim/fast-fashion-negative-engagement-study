@@ -1,0 +1,61 @@
+topic_id,topic_label,rank,term,weight,publication_label
+0,cloth | store | shop,1,cloth,445.9203627364802,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,2,store,375.32443405142345,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,3,shop,342.51325630688984,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,4,like,335.3436199346201,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,5,quality,335.1181024144759,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,6,product,284.62777344529087,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,7,time,257.9315730440832,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,8,price,231.81872465861204,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,9,bui,209.86538640983184,"In-Store Experience, Exchanges & Returns"
+0,cloth | store | shop,10,bad,195.68870524494315,"In-Store Experience, Exchanges & Returns"
+1,item | customer | service,1,item,1354.7836754027246,Customer Service Failures & Staff Conduct
+1,item | customer | service,2,customer,1289.4904253397199,Customer Service Failures & Staff Conduct
+1,item | customer | service,3,service,1213.7870338596133,Customer Service Failures & Staff Conduct
+1,item | customer | service,4,return,1142.5153686976523,Customer Service Failures & Staff Conduct
+1,item | customer | service,5,refund,964.7780541799226,Customer Service Failures & Staff Conduct
+1,item | customer | service,6,order,571.0169478505333,Customer Service Failures & Staff Conduct
+1,item | customer | service,7,compani,373.202805928326,Customer Service Failures & Staff Conduct
+1,item | customer | service,8,time,370.5335206900629,Customer Service Failures & Staff Conduct
+1,item | customer | service,9,sent,345.21016866159096,Customer Service Failures & Staff Conduct
+1,item | customer | service,10,receive,324.13797880459396,Customer Service Failures & Staff Conduct
+2,size | order | wrong,1,size,538.7173779450206,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,2,order,457.235188760098,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,3,wrong,248.85481013073166,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,4,item,248.2685072092978,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,5,cloth,209.74379728372293,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,6,sent,194.33074913735476,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,7,dress,166.41732597063012,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,8,voucher,141.0800116076547,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,9,arriv,136.69673954025572,"Product Quality, Size & Wrong Items"
+2,size | order | wrong,10,jacket,119.4180927879447,"Product Quality, Size & Wrong Items"
+3,order | shipping | receive,1,order,3750.3221291561495,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,2,shipping,1032.000084771565,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,3,receive,766.1241086378252,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,4,item,730.947118552728,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,5,onlin,715.3818133090083,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,6,cancel,687.026035121917,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,7,time,649.2631427574211,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,8,week,576.3689006746908,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,9,delivery,456.2258119104728,"Refunds, Contact & Service Recovery"
+3,order | shipping | receive,10,place,440.07451325159036,"Refunds, Contact & Service Recovery"
+4,customer | service | store,1,customer,1460.4713828497954,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,2,service,1140.882859442288,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,3,store,914.818135543201,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,4,manager,453.4144501992738,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,5,card,442.9317202261202,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,6,told,433.49074730459665,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,7,return,431.3853817753375,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,8,said,394.6222884165578,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,9,shop,382.99118466857743,"Order Delays, Shipping & Cancellation"
+4,customer | service | store,10,ask,358.63907307137083,"Order Delays, Shipping & Cancellation"
+5,parcel | order | service,1,parcel,1201.5027345375047,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,2,order,1088.4277597682649,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,3,service,794.0260431025486,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,4,delivery,766.7797291969497,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,5,receive,693.4303707067191,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,6,deliv,678.1051247409526,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,7,customer,646.6523273011495,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,8,contact,638.4745404814643,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,9,refund,449.04351677942685,"Delivery, Non-Receipt & Parcel Problems"
+5,parcel | order | service,10,email,446.5637743385397,"Delivery, Non-Receipt & Parcel Problems"
