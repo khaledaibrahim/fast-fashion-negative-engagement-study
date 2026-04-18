@@ -47,5 +47,6 @@ The same repository is also intended to function as a portfolio-style data scien
 - The pipeline includes VADER sentiment, lexicon-based emotion/aspect scoring, sklearn LDA, BERTopic with a local sklearn embedder, and coherence diagnostics.
 - The project currently assumes the Conda Python at `/opt/anaconda3/bin/python` because the BERTopic stack is installed there.
 - In this local environment, BERTopic required a dependency-level patch to disable problematic numba caching inside `umap` and `pynndescent`. That patch is environment-specific rather than part of the project code.
-- For manuscript support, see `reports/study1_manuscript_support.md`, `reports/draft_methodology_results.md`, and `reports/study1_results_section.md`.
+- For manuscript support, see `reports/study1_manuscript_support.md`. Earlier working drafts are kept under `reports/archive/`.
 - The GitHub-facing review-level export is `outputs/tables/study1_scored_reviews_public.csv`, which excludes reviewer identity/contact columns and redacts email addresses and phone numbers from the text fields.
+- GitHub may not preview large CSV files inline. For easier download, the repository also includes `outputs/tables/study1_scored_reviews_public.zip`.

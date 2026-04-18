@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+import zipfile
 from pathlib import Path
 
 import pandas as pd
@@ -168,7 +169,10 @@ def main() -> None:
 
     save_table(scored_reviews, PROJECT_ROOT / "data/processed/reviews_1_3_scored.csv")
     public_reviews = scored_reviews[PUBLIC_COLUMNS].copy()
-    save_table(public_reviews, PROJECT_ROOT / "outputs/tables/study1_scored_reviews_public.csv")
+    public_reviews_path = PROJECT_ROOT / "outputs/tables/study1_scored_reviews_public.csv"
+    save_table(public_reviews, public_reviews_path)
+    with zipfile.ZipFile(PROJECT_ROOT / "outputs/tables/study1_scored_reviews_public.zip", "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        archive.write(public_reviews_path, arcname="study1_scored_reviews_public.csv")
     save_table(topic_terms, PROJECT_ROOT / "outputs/tables/topic_terms.csv")
     save_table(bertopic_terms, PROJECT_ROOT / "outputs/tables/bertopic_terms.csv")
     save_table(bertopic_info, PROJECT_ROOT / "outputs/tables/bertopic_info.csv")

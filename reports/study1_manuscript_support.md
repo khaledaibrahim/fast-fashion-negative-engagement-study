@@ -50,21 +50,21 @@ Emotion coding showed that frustration was the most common emotion marker across
 
 The primary topic model for Study 1 is the six-topic LDA solution. After token normalization and relabeling, the six publication-facing themes are:
 
-1. In-Store Experience, Exchanges & Returns
-2. Customer Service Failures & Staff Conduct
-3. Product Quality, Size & Wrong Items
-4. Refunds, Contact & Service Recovery
-5. Order Delays, Shipping & Cancellation
-6. Delivery, Non-Receipt & Parcel Problems
+1. Payment, Vouchers & Website Issues
+2. Product Quality, Size & Wrong Items
+3. Gift Cards, Refunds & Payment Recovery
+4. Customer Service Failures & Staff Conduct
+5. Delivery, Non-Receipt & Shipping Delays
+6. Returns, Refunds & Service Recovery
 
 These themes provide a broader and more theory-friendly overview than the narrower BERTopic clusters, which makes them better suited for the main paper narrative.
 
 At the brand level:
 
-- H&M is most strongly associated with Order Delays, Shipping & Cancellation.
-- ZARA is most strongly associated with In-Store Experience, Exchanges & Returns and Customer Service Failures & Staff Conduct.
-- SHEIN is dominated by Refunds, Contact & Service Recovery.
-- Urban Outfitters is dominated by Delivery, Non-Receipt & Parcel Problems.
+- H&M is most strongly associated with Delivery, Non-Receipt & Shipping Delays.
+- ZARA is most strongly associated with Customer Service Failures & Staff Conduct.
+- SHEIN is dominated by Returns, Refunds & Service Recovery.
+- Urban Outfitters is dominated by Delivery, Non-Receipt & Shipping Delays.
 
 ## BERTopic Findings
 
@@ -139,21 +139,22 @@ Figure 8 compares coherence diagnostics across the LDA and BERTopic solutions.
 The main analysis outputs that support this document are:
 
 - `outputs/tables/study1_scored_reviews_public.csv`
+- `outputs/tables/study1_scored_reviews_public.zip`
 - `outputs/tables/study1_publication_workbook.xlsx`
 - `outputs/figures/study1_figures_appendix.pdf`
-- `reports/draft_methodology_results.md`
-- `reports/study1_results_section.md`
+- `reports/archive/draft_methodology_results.md`
+- `reports/archive/study1_results_section.md`
 
 ## Public Data and Privacy
 
-The GitHub-facing review-level dataset is a sanitized public export. It excludes direct identity and contact columns such as reviewer names, email fields, and phone fields. Review text is also redacted for email addresses and phone numbers before export so that the public repository contains reproducible analysis outputs without exposing identifiable reviewer information.
+The GitHub-facing review-level dataset is a sanitized public export. It excludes direct identity and contact columns such as reviewer names, email fields, and phone fields. Review text is also redacted for email addresses and phone numbers before export so that the public repository contains reproducible analysis outputs without exposing identifiable reviewer information. Because GitHub may not preview larger CSV files inline, the repository also includes a zipped copy for easier download.
 
-## Remaining Steps Before Final Delivery
+## Package Status
 
-Before the final GitHub and Word deliverables are packaged, the remaining work is:
+The Study 1 package is now assembled as a reproducible repository that includes:
 
-1. Final README polish so the repository reads well as both a publication companion and a portfolio project.
-2. Git initialization and selective commit curation.
-3. A data-sharing decision on whether any processed review-level outputs should be public in GitHub.
-4. Creation of the final Word document version of this manuscript-support report.
-5. Optional final figure caption polishing and manuscript-specific shortening.
+1. The full analysis code and configuration.
+2. Final figures and tables.
+3. A sanitized public review-level export for GitHub.
+4. A publication workbook.
+5. A Word manuscript-support document and figure appendix PDF.

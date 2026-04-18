@@ -21,12 +21,12 @@ analysis:
 
 publication_labels:
   lda:
-    0: "In-Store Experience, Exchanges & Returns"
-    1: "Customer Service Failures & Staff Conduct"
-    2: "Product Quality, Size & Wrong Items"
-    3: "Refunds, Contact & Service Recovery"
-    4: "Order Delays, Shipping & Cancellation"
-    5: "Delivery, Non-Receipt & Parcel Problems"
+    0: "Payment, Vouchers & Website Issues"
+    1: "Product Quality, Size & Wrong Items"
+    2: "Gift Cards, Refunds & Payment Recovery"
+    3: "Customer Service Failures & Staff Conduct"
+    4: "Delivery, Non-Receipt & Shipping Delays"
+    5: "Returns, Refunds & Service Recovery"
   bertopic:
     -1: "Mixed Negative Complaints"
     0: "Shipping Delays & Online Fulfilment"
@@ -45,22 +45,22 @@ construct_mapping:
   lda:
     0:
       primary_construct: "Low Service Quality"
-      interpretation: "Store visits, exchange attempts, and in-person return friction reflect low service quality in physical retail touchpoints."
+      interpretation: "Voucher disputes, website problems, and purchase/payment friction reflect transactional low service quality."
     1:
       primary_construct: "Low Service Quality"
-      interpretation: "Rude staff, poor support, and failed complaint handling indicate frontline customer-service breakdowns."
+      interpretation: "Wrong items, sizing problems, and product-quality complaints reflect fulfilment failure and poor purchase outcomes."
     2:
-      primary_construct: "Low Service Quality"
-      interpretation: "Wrong items, sizing problems, and poor product quality reflect fulfilment and outcome-quality failures."
-    3:
       primary_construct: "Negative Past Experience"
-      interpretation: "Refund disputes, repeated contact attempts, and unresolved service recovery reflect accumulated negative past experience."
+      interpretation: "Gift-card disputes, refund problems, and payment recovery difficulties reflect repeated unresolved negative experience."
+    3:
+      primary_construct: "Low Service Quality"
+      interpretation: "Rude staff, poor support, and failed complaint handling indicate frontline customer-service breakdowns."
     4:
       primary_construct: "Low Service Quality"
-      interpretation: "Order delays, shipping disruption, and cancellation failures capture logistics-related low service quality."
+      interpretation: "Delivery delays, non-receipt, and parcel problems indicate logistics-related low service quality."
     5:
-      primary_construct: "Low Service Quality"
-      interpretation: "Non-delivery, delayed arrival, and parcel problems indicate severe fulfilment failure and unmet service promises."
+      primary_construct: "Negative Past Experience"
+      interpretation: "Returns, refund disputes, and repeated contact attempts indicate unresolved recovery failure and accumulated negative past experience."
   bertopic:
     -1:
       primary_construct: "NPE"

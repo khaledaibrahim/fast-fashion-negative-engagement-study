@@ -116,9 +116,6 @@ The current evidence supports presenting LDA as the primary exploratory topic mo
 - BERTopic currently produces a sizeable outlier class, so its outputs should be interpreted as complementary rather than definitive.
 - Dictionary-based aspect and emotion coding is transparent and reproducible, but it should be framed as a heuristic layer rather than a perfect classifier.
 
-## Next Writing Steps
+## Archive Note
 
-1. Add illustrative example quotes for each major topic or aspect cluster.
-2. Turn the strongest LDA themes into a concise results table for the manuscript body.
-3. Use BERTopic selectively as a robustness appendix rather than as the main narrative.
-4. Align the Study 1 construct-mapping table directly with the exact wording used in the Study 2 model and hypotheses.
+This file is retained as an earlier working draft. The current manuscript-facing report is `reports/study1_manuscript_support.md`.

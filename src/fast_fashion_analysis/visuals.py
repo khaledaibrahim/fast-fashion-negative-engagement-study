@@ -89,14 +89,25 @@ def save_sentiment_vs_rating(df: pd.DataFrame, path: Path) -> None:
 
 def save_topic_heatmap(topic_terms: pd.DataFrame, path: Path) -> None:
     label_col = "publication_label" if "publication_label" in topic_terms.columns else "topic_label"
-    heatmap_data = topic_terms.groupby(["term", label_col], as_index=False)["rank"].min()
+    top_terms = topic_terms.loc[topic_terms["rank"] <= 8].copy()
+    heatmap_data = top_terms.groupby(["term", label_col], as_index=False)["rank"].min()
     heatmap_data = heatmap_data.pivot(index="term", columns=label_col, values="rank")
     heatmap_data = heatmap_data.sort_index()
-    fig, ax = plt.subplots(figsize=(18, 12))
-    sns.heatmap(heatmap_data, cmap="YlOrRd_r", ax=ax, cbar_kws={"label": "Rank"})
+    wrapped_columns = [textwrap.fill(str(column), width=22) for column in heatmap_data.columns]
+    fig, ax = plt.subplots(figsize=(20, 10))
+    sns.heatmap(
+        heatmap_data,
+        cmap="YlOrRd_r",
+        ax=ax,
+        linewidths=0.5,
+        linecolor="white",
+        cbar_kws={"label": "Rank (lower is more important)"},
+    )
     ax.set_title("Figure 3 - LDA Topic-Word Heatmap", fontsize=20, fontweight="bold", pad=16)
-    ax.set_xlabel("Topic")
-    ax.set_ylabel("Term")
+    ax.set_xlabel("LDA Theme")
+    ax.set_ylabel("Top Terms")
+    ax.set_xticklabels(wrapped_columns, rotation=25, ha="right")
+    ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
     fig.tight_layout()
     fig.savefig(path, dpi=200, bbox_inches="tight")
     plt.close(fig)
