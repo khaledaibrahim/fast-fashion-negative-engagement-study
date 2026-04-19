@@ -6,13 +6,14 @@ LDA,3,Customer Service Failures & Staff Conduct,Low Service Quality,"Rude staff,
 LDA,4,"Delivery, Non-Receipt & Shipping Delays",Low Service Quality,"Delivery delays, non-receipt, and parcel problems indicate logistics-related low service quality."
 LDA,5,"Returns, Refunds & Service Recovery",Negative Past Experience,"Returns, refund disputes, and repeated contact attempts indicate unresolved recovery failure and accumulated negative past experience."
 BERTopic,,Gift Card & Store Credit Issues,Low Service Quality,Gift-card and store-credit disputes indicate payment and restitution service failures.
+BERTopic,,"In-Store Staff, Policy & Queue Problems",Low Service Quality,"Store manager, receipt, and policy issues reflect in-store service quality breakdowns."
 BERTopic,,Poor Quality & Cheap Products,Low Service Quality,Poor product quality and cheapness reflect core product-related service failure.
 BERTopic,,Shipping Delays & Online Fulfilment,Low Service Quality,Shipping and fulfilment delays indicate operational low service quality in online ordering.
 BERTopic,,cancel | order | item,,
 BERTopic,,delivery | parcel | deliv,,
-BERTopic,,onlin | shop | order,,
+BERTopic,,dress | came | return,,
+BERTopic,,onlin | order | shop,,
 BERTopic,,return | refund | item,,
-BERTopic,,service | customer | phone,,
-BERTopic,,size | cloth | store,,
-BERTopic,,store | staff | exchang,,
+BERTopic,,size | fit | store,,
+BERTopic,,store | staff | customer,,
 BERTopic,,wrong | sent | item,,

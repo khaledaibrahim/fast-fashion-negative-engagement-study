@@ -1,21 +1,22 @@
 model,topic_id,topic_label,coherence_cv
-LDA,0,voucher | price | reciev,0.29457826848086677
-LDA,1,size | item | return,0.5755502707270735
-LDA,2,card | gift | refund,0.4955251412648331
-LDA,3,customer | service | store,0.5912184405873179
-LDA,4,order | receive | delivery,0.5951481542400696
-LDA,5,customer | service | return,0.5568014583106
-LDA,overall,overall,0.5181369556017935
-BERTopic,-1,order | service | item,0.5875121238420412
-BERTopic,0,store | staff | exchang,0.5726748924588951
-BERTopic,1,return | refund | item,0.5653630247334108
-BERTopic,2,delivery | parcel | deliv,0.6012633588923739
-BERTopic,3,shipping | order | place,0.6079526891453051
-BERTopic,4,card | gift | payment,0.5452246249725979
-BERTopic,5,service | customer | phone,0.3606080375637687
-BERTopic,6,quality | cloth | wash,0.614599181117067
-BERTopic,7,wrong | sent | item,0.47741950719797643
-BERTopic,8,cancel | order | item,0.45684060710607965
-BERTopic,9,size | cloth | store,0.4799185349435463
-BERTopic,10,onlin | shop | order,0.4395082571846868
-BERTopic,overall,overall,0.5257404032631458
+LDA,0,item | return | refund,0.5616633051640764
+LDA,1,store | shop | return,0.5694436482911863
+LDA,2,order | shipping | delivery,0.5718444271536421
+LDA,3,cloth | quality | size,0.6536226884252138
+LDA,4,customer | service | onlin,0.4554278186928983
+LDA,5,parcel | order | receive,0.5702950013341802
+LDA,overall,overall,0.5637161481768661
+BERTopic,-1,order | receive | service,0.571619247603752
+BERTopic,0,store | staff | customer,0.54608361457704
+BERTopic,1,return | refund | item,0.5410425326486871
+BERTopic,2,delivery | parcel | deliv,0.564296028022876
+BERTopic,3,shipping | order | place,0.577179031728895
+BERTopic,4,cloth | quality | shirt,0.5587182611695864
+BERTopic,5,card | gift | payment,0.5334539452407868
+BERTopic,6,customer | service | manager,0.41019985350594695
+BERTopic,7,wrong | sent | item,0.5014071355573273
+BERTopic,8,cancel | order | item,0.48168867727970144
+BERTopic,9,onlin | order | shop,0.4964008429051304
+BERTopic,10,size | fit | store,0.48643821441826507
+BERTopic,11,dress | came | return,0.4383040246312656
+BERTopic,overall,overall,0.5159101084068662

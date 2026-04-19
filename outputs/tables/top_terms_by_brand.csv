@@ -6,7 +6,7 @@ H&M,4,item,970
 H&M,5,onlin,934
 H&M,6,shipping,848
 H&M,7,store,681
-H&M,8,receive,653
+H&M,8,receive,674
 H&M,9,refund,639
 H&M,10,return,598
 H&M,11,shop,581
@@ -28,8 +28,8 @@ ZARA,6,return,586
 ZARA,7,refund,464
 ZARA,8,shop,404
 ZARA,9,onlin,398
-ZARA,10,manager,306
-ZARA,11,receive,302
+ZARA,10,receive,311
+ZARA,11,manager,306
 ZARA,12,cloth,269
 ZARA,13,staff,245
 ZARA,14,delivery,235
@@ -44,9 +44,9 @@ SHEIN,2,item,773
 SHEIN,3,service,621
 SHEIN,4,customer,620
 SHEIN,5,return,597
-SHEIN,6,refund,549
-SHEIN,7,parcel,537
-SHEIN,8,receive,517
+SHEIN,6,receive,559
+SHEIN,7,refund,549
+SHEIN,8,parcel,537
 SHEIN,9,contact,456
 SHEIN,10,email,259
 SHEIN,11,delivery,255
@@ -60,8 +60,8 @@ SHEIN,18,respons,164
 SHEIN,19,miss,148
 SHEIN,20,week,141
 Urban Outfitters,1,order,1191
-Urban Outfitters,2,item,464
-Urban Outfitters,3,receive,463
+Urban Outfitters,2,receive,482
+Urban Outfitters,3,item,464
 Urban Outfitters,4,cancel,360
 Urban Outfitters,5,service,303
 Urban Outfitters,6,customer,282

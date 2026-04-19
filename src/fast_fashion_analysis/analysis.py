@@ -25,6 +25,7 @@ TOKEN_NORMALIZATION = {
     "parcel": "parcel",
     "packag": "parcel",
     "receiv": "receive",
+    "reciev": "receive",
     "return": "return",
     "refund": "refund",
     "cancel": "cancel",

@@ -1,121 +1,131 @@
 topic_id,topic_label,rank,term,weight,publication_label
--1,order | service | item,1,order,0.05561364989675144,order | service | item
--1,order | service | item,2,service,0.03419981169639088,order | service | item
--1,order | service | item,3,item,0.034185858492959735,order | service | item
--1,order | service | item,4,receive,0.033957137186859124,order | service | item
--1,order | service | item,5,customer,0.033687116856548925,order | service | item
--1,order | service | item,6,parcel,0.025172543947161268,order | service | item
--1,order | service | item,7,refund,0.022734691373118888,order | service | item
--1,order | service | item,8,email,0.022342786205259247,order | service | item
--1,order | service | item,9,delivery,0.021676131843994393,order | service | item
--1,order | service | item,10,onlin,0.0211443691437111,order | service | item
-0,store | staff | exchang,1,store,0.08170448369369761,store | staff | exchang
-0,store | staff | exchang,2,staff,0.05088726085412456,store | staff | exchang
-0,store | staff | exchang,3,exchang,0.04856641966977464,store | staff | exchang
-0,store | staff | exchang,4,customer,0.047222071288767625,store | staff | exchang
-0,store | staff | exchang,5,manager,0.04663421361135804,store | staff | exchang
-0,store | staff | exchang,6,receipt,0.044866900781531854,store | staff | exchang
-0,store | staff | exchang,7,rude,0.03706077753715589,store | staff | exchang
-0,store | staff | exchang,8,service,0.03627489036480217,store | staff | exchang
-0,store | staff | exchang,9,shop,0.03399178089994288,store | staff | exchang
-0,store | staff | exchang,10,polici,0.028920651888915842,store | staff | exchang
-1,return | refund | item,1,return,0.09985299451507229,return | refund | item
-1,return | refund | item,2,refund,0.08072920650605674,return | refund | item
-1,return | refund | item,3,item,0.054874931396287685,return | refund | item
-1,return | refund | item,4,contact,0.04461271840948634,return | refund | item
-1,return | refund | item,5,customer,0.034526122164052375,return | refund | item
-1,return | refund | item,6,service,0.034443755117223314,return | refund | item
-1,return | refund | item,7,receive,0.029180124964422786,return | refund | item
-1,return | refund | item,8,order,0.02544922891328119,return | refund | item
-1,return | refund | item,9,email,0.025249602825510902,return | refund | item
-1,return | refund | item,10,sent,0.024269763570592677,return | refund | item
-2,delivery | parcel | deliv,1,delivery,0.12754077810622777,delivery | parcel | deliv
-2,delivery | parcel | deliv,2,parcel,0.1101995112685453,delivery | parcel | deliv
-2,delivery | parcel | deliv,3,deliv,0.07574736141203939,delivery | parcel | deliv
-2,delivery | parcel | deliv,4,service,0.04237985042289935,delivery | parcel | deliv
-2,delivery | parcel | deliv,5,order,0.04227390344153721,delivery | parcel | deliv
-2,delivery | parcel | deliv,6,arriv,0.03702126208654813,delivery | parcel | deliv
-2,delivery | parcel | deliv,7,sai,0.030330832531431394,delivery | parcel | deliv
-2,delivery | parcel | deliv,8,customer,0.02874513503771615,delivery | parcel | deliv
-2,delivery | parcel | deliv,9,wait,0.027289168190514,delivery | parcel | deliv
-2,delivery | parcel | deliv,10,onlin,0.02658784171091294,delivery | parcel | deliv
-3,shipping | order | place,1,shipping,0.17490385752321594,Shipping Delays & Online Fulfilment
-3,shipping | order | place,2,order,0.08615956289026114,Shipping Delays & Online Fulfilment
-3,shipping | order | place,3,place,0.04567298800930248,Shipping Delays & Online Fulfilment
-3,shipping | order | place,4,week,0.04323024479175248,Shipping Delays & Online Fulfilment
-3,shipping | order | place,5,busi,0.03866468888599514,Shipping Delays & Online Fulfilment
-3,shipping | order | place,6,delai,0.03380838217189802,Shipping Delays & Online Fulfilment
-3,shipping | order | place,7,item,0.033651769846951465,Shipping Delays & Online Fulfilment
-3,shipping | order | place,8,customer,0.03010722488597308,Shipping Delays & Online Fulfilment
-3,shipping | order | place,9,process,0.029284680168769343,Shipping Delays & Online Fulfilment
-3,shipping | order | place,10,onlin,0.02750095229257527,Shipping Delays & Online Fulfilment
-4,card | gift | payment,1,card,0.18957253452619616,Gift Card & Store Credit Issues
-4,card | gift | payment,2,gift,0.1498622821118685,Gift Card & Store Credit Issues
-4,card | gift | payment,3,payment,0.05336564994304494,Gift Card & Store Credit Issues
-4,card | gift | payment,4,credit,0.05317013517775563,Gift Card & Store Credit Issues
-4,card | gift | payment,5,bank,0.043535661601142764,Gift Card & Store Credit Issues
-4,card | gift | payment,6,order,0.037414536907729654,Gift Card & Store Credit Issues
-4,card | gift | payment,7,email,0.03384365553902896,Gift Card & Store Credit Issues
-4,card | gift | payment,8,customer,0.03347017038415274,Gift Card & Store Credit Issues
-4,card | gift | payment,9,purchas,0.032178540255085104,Gift Card & Store Credit Issues
-4,card | gift | payment,10,service,0.031965959687471984,Gift Card & Store Credit Issues
-5,service | customer | phone,1,service,0.15624836440910744,service | customer | phone
-5,service | customer | phone,2,customer,0.15310650842750206,service | customer | phone
-5,service | customer | phone,3,phone,0.03183955557881825,service | customer | phone
-5,service | customer | phone,4,manager,0.027450538660411822,service | customer | phone
-5,service | customer | phone,5,hour,0.026474049997458553,service | customer | phone
-5,service | customer | phone,6,order,0.025035668639998718,service | customer | phone
-5,service | customer | phone,7,complaint,0.023737850365484595,service | customer | phone
-5,service | customer | phone,8,know,0.023575958267940685,service | customer | phone
-5,service | customer | phone,9,appal,0.023018721257062023,service | customer | phone
-5,service | customer | phone,10,disgust,0.02281301816694925,service | customer | phone
-6,quality | cloth | wash,1,quality,0.17977121258145867,Poor Quality & Cheap Products
-6,quality | cloth | wash,2,cloth,0.167773879776777,Poor Quality & Cheap Products
-6,quality | cloth | wash,3,wash,0.059329521336676974,Poor Quality & Cheap Products
-6,quality | cloth | wash,4,shirt,0.058526223223326866,Poor Quality & Cheap Products
-6,quality | cloth | wash,5,materi,0.049907288684554546,Poor Quality & Cheap Products
-6,quality | cloth | wash,6,cheap,0.04971304720486115,Poor Quality & Cheap Products
-6,quality | cloth | wash,7,price,0.043518593168561846,Poor Quality & Cheap Products
-6,quality | cloth | wash,8,fabric,0.04228151034995919,Poor Quality & Cheap Products
-6,quality | cloth | wash,9,wear,0.040921976040231775,Poor Quality & Cheap Products
-6,quality | cloth | wash,10,love,0.03744176802585738,Poor Quality & Cheap Products
-7,wrong | sent | item,1,wrong,0.2994848578627471,wrong | sent | item
-7,wrong | sent | item,2,sent,0.1677386450304792,wrong | sent | item
-7,wrong | sent | item,3,item,0.10700282138687134,wrong | sent | item
-7,wrong | sent | item,4,size,0.09092095539581885,wrong | sent | item
-7,wrong | sent | item,5,order,0.05878433208259594,wrong | sent | item
-7,wrong | sent | item,6,receive,0.044748098634133454,wrong | sent | item
-7,wrong | sent | item,7,refund,0.03919215970567239,wrong | sent | item
-7,wrong | sent | item,8,complet,0.03673911138973081,wrong | sent | item
-7,wrong | sent | item,9,deliv,0.029095946763874576,wrong | sent | item
-7,wrong | sent | item,10,customer,0.02873611462335232,wrong | sent | item
-8,cancel | order | item,1,cancel,0.3552171503461416,cancel | order | item
-8,cancel | order | item,2,order,0.15577328109091554,cancel | order | item
-8,cancel | order | item,3,item,0.050392800235678645,cancel | order | item
-8,cancel | order | item,4,customer,0.03840858212616258,cancel | order | item
-8,cancel | order | item,5,service,0.038180777465428764,cancel | order | item
-8,cancel | order | item,6,place,0.028898174165382068,cancel | order | item
-8,cancel | order | item,7,didnt,0.02813550693072856,cancel | order | item
-8,cancel | order | item,8,week,0.02691843543881807,cancel | order | item
-8,cancel | order | item,9,email,0.02664135395601957,cancel | order | item
-8,cancel | order | item,10,avail,0.025370373215607367,cancel | order | item
-9,size | cloth | store,1,size,0.343050037352231,size | cloth | store
-9,size | cloth | store,2,cloth,0.053929184096626365,size | cloth | store
-9,size | cloth | store,3,store,0.046253366626996535,size | cloth | store
-9,size | cloth | store,4,small,0.04620725003447507,size | cloth | store
-9,size | cloth | store,5,fit,0.044500345694994115,size | cloth | store
-9,size | cloth | store,6,jean,0.031573899457081694,size | cloth | store
-9,size | cloth | store,7,inch,0.03098414730636784,size | cloth | store
-9,size | cloth | store,8,exchang,0.02819868990761257,size | cloth | store
-9,size | cloth | store,9,order,0.027515761764822833,size | cloth | store
-9,size | cloth | store,10,bigger,0.02655455763265216,size | cloth | store
-10,onlin | shop | order,1,onlin,0.19856800481862735,onlin | shop | order
-10,onlin | shop | order,2,shop,0.09542968633976338,onlin | shop | order
-10,onlin | shop | order,3,order,0.0864582544406491,onlin | shop | order
-10,onlin | shop | order,4,store,0.035662711965706,onlin | shop | order
-10,onlin | shop | order,5,shipping,0.03477405345090655,onlin | shop | order
-10,onlin | shop | order,6,service,0.03234758390941795,onlin | shop | order
-10,onlin | shop | order,7,customer,0.029411682565093824,onlin | shop | order
-10,onlin | shop | order,8,took,0.02909337989717039,onlin | shop | order
-10,onlin | shop | order,9,wait,0.026548854497773836,onlin | shop | order
-10,onlin | shop | order,10,receive,0.025597410667866128,onlin | shop | order
+-1,order | receive | service,1,order,0.05323240167663337,order | receive | service
+-1,order | receive | service,2,receive,0.034914681179114414,order | receive | service
+-1,order | receive | service,3,service,0.034053903052829106,order | receive | service
+-1,order | receive | service,4,item,0.03378898547814298,order | receive | service
+-1,order | receive | service,5,customer,0.03262347474227864,order | receive | service
+-1,order | receive | service,6,parcel,0.026859865502218527,order | receive | service
+-1,order | receive | service,7,delivery,0.023706024079095587,order | receive | service
+-1,order | receive | service,8,email,0.022776307691731463,order | receive | service
+-1,order | receive | service,9,refund,0.0223115955872598,order | receive | service
+-1,order | receive | service,10,deliv,0.020219327754764867,order | receive | service
+0,store | staff | customer,1,store,0.08073628371851668,store | staff | customer
+0,store | staff | customer,2,staff,0.048341652064066445,store | staff | customer
+0,store | staff | customer,3,customer,0.04604201531150812,store | staff | customer
+0,store | staff | customer,4,exchang,0.04588965475401196,store | staff | customer
+0,store | staff | customer,5,manager,0.04386252262313365,store | staff | customer
+0,store | staff | customer,6,receipt,0.042301749651282465,store | staff | customer
+0,store | staff | customer,7,service,0.035757235904267756,store | staff | customer
+0,store | staff | customer,8,rude,0.0355346770040099,store | staff | customer
+0,store | staff | customer,9,shop,0.03484440170569987,store | staff | customer
+0,store | staff | customer,10,polici,0.02913900336374142,store | staff | customer
+1,return | refund | item,1,return,0.09678093572387257,return | refund | item
+1,return | refund | item,2,refund,0.08095962134854325,return | refund | item
+1,return | refund | item,3,item,0.0499674253366973,return | refund | item
+1,return | refund | item,4,contact,0.03989752340278975,return | refund | item
+1,return | refund | item,5,service,0.031413608059889075,return | refund | item
+1,return | refund | item,6,customer,0.031036116632418974,return | refund | item
+1,return | refund | item,7,receive,0.02764046425162954,return | refund | item
+1,return | refund | item,8,repli,0.0261590960205659,return | refund | item
+1,return | refund | item,9,email,0.025710318502584522,return | refund | item
+1,return | refund | item,10,order,0.024991633929850286,return | refund | item
+2,delivery | parcel | deliv,1,delivery,0.13152596883865902,delivery | parcel | deliv
+2,delivery | parcel | deliv,2,parcel,0.11650525783279927,delivery | parcel | deliv
+2,delivery | parcel | deliv,3,deliv,0.07376613586601889,delivery | parcel | deliv
+2,delivery | parcel | deliv,4,arriv,0.04416436635126541,delivery | parcel | deliv
+2,delivery | parcel | deliv,5,service,0.038205476189731136,delivery | parcel | deliv
+2,delivery | parcel | deliv,6,order,0.03606633282723763,delivery | parcel | deliv
+2,delivery | parcel | deliv,7,wait,0.030428425838407977,delivery | parcel | deliv
+2,delivery | parcel | deliv,8,sai,0.030232610540431283,delivery | parcel | deliv
+2,delivery | parcel | deliv,9,customer,0.026447491013101496,delivery | parcel | deliv
+2,delivery | parcel | deliv,10,got,0.02395220787918482,delivery | parcel | deliv
+3,shipping | order | place,1,shipping,0.1668375400039772,Shipping Delays & Online Fulfilment
+3,shipping | order | place,2,order,0.08203234384312269,Shipping Delays & Online Fulfilment
+3,shipping | order | place,3,place,0.043521998399853365,Shipping Delays & Online Fulfilment
+3,shipping | order | place,4,week,0.04258777882654042,Shipping Delays & Online Fulfilment
+3,shipping | order | place,5,busi,0.0393839460628693,Shipping Delays & Online Fulfilment
+3,shipping | order | place,6,item,0.03234100566944376,Shipping Delays & Online Fulfilment
+3,shipping | order | place,7,delai,0.03168471184938633,Shipping Delays & Online Fulfilment
+3,shipping | order | place,8,process,0.02989698017096045,Shipping Delays & Online Fulfilment
+3,shipping | order | place,9,customer,0.02867763486592271,Shipping Delays & Online Fulfilment
+3,shipping | order | place,10,receive,0.026319241507083393,Shipping Delays & Online Fulfilment
+4,cloth | quality | shirt,1,cloth,0.1407610455922563,Poor Quality & Cheap Products
+4,cloth | quality | shirt,2,quality,0.12584649066878945,Poor Quality & Cheap Products
+4,cloth | quality | shirt,3,shirt,0.07876528231219242,Poor Quality & Cheap Products
+4,cloth | quality | shirt,4,wash,0.04706368039695071,Poor Quality & Cheap Products
+4,cloth | quality | shirt,5,cheap,0.04148017922471784,Poor Quality & Cheap Products
+4,cloth | quality | shirt,6,price,0.037230934371898255,Poor Quality & Cheap Products
+4,cloth | quality | shirt,7,wear,0.03674625590440979,Poor Quality & Cheap Products
+4,cloth | quality | shirt,8,materi,0.03354735287187414,Poor Quality & Cheap Products
+4,cloth | quality | shirt,9,love,0.02823830944105117,Poor Quality & Cheap Products
+4,cloth | quality | shirt,10,year,0.02739973331985082,Poor Quality & Cheap Products
+5,card | gift | payment,1,card,0.18701407984209814,Gift Card & Store Credit Issues
+5,card | gift | payment,2,gift,0.15162586043207948,Gift Card & Store Credit Issues
+5,card | gift | payment,3,payment,0.054521062482603605,Gift Card & Store Credit Issues
+5,card | gift | payment,4,credit,0.05018400796823981,Gift Card & Store Credit Issues
+5,card | gift | payment,5,bank,0.041336120292722225,Gift Card & Store Credit Issues
+5,card | gift | payment,6,purchas,0.03479738732048069,Gift Card & Store Credit Issues
+5,card | gift | payment,7,order,0.03367631254186098,Gift Card & Store Credit Issues
+5,card | gift | payment,8,email,0.03164028973785796,Gift Card & Store Credit Issues
+5,card | gift | payment,9,customer,0.029233094930794283,Gift Card & Store Credit Issues
+5,card | gift | payment,10,receive,0.028431091022734622,Gift Card & Store Credit Issues
+6,customer | service | manager,1,customer,0.14386642408894126,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,2,service,0.13773924734480117,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,3,manager,0.03176922168255756,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,4,phone,0.031062956715166505,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,5,hour,0.026654005973075972,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,6,order,0.023682431795044288,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,7,complaint,0.0219349945597151,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,8,disgust,0.021137523577293604,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,9,need,0.020507851686557492,"In-Store Staff, Policy & Queue Problems"
+6,customer | service | manager,10,wait,0.020500466664594943,"In-Store Staff, Policy & Queue Problems"
+7,wrong | sent | item,1,wrong,0.2855810678648478,wrong | sent | item
+7,wrong | sent | item,2,sent,0.1541876500050628,wrong | sent | item
+7,wrong | sent | item,3,item,0.10931151606620206,wrong | sent | item
+7,wrong | sent | item,4,size,0.08185651080135348,wrong | sent | item
+7,wrong | sent | item,5,order,0.055899177474217056,wrong | sent | item
+7,wrong | sent | item,6,receive,0.04421588762550797,wrong | sent | item
+7,wrong | sent | item,7,refund,0.035483597425859256,wrong | sent | item
+7,wrong | sent | item,8,complet,0.03536779300721008,wrong | sent | item
+7,wrong | sent | item,9,send,0.028107928599221704,wrong | sent | item
+7,wrong | sent | item,10,deliv,0.027569879493638167,wrong | sent | item
+8,cancel | order | item,1,cancel,0.3425847217456088,cancel | order | item
+8,cancel | order | item,2,order,0.14671562286789266,cancel | order | item
+8,cancel | order | item,3,item,0.051835957509672605,cancel | order | item
+8,cancel | order | item,4,avail,0.0390575153054457,cancel | order | item
+8,cancel | order | item,5,customer,0.03482146224455893,cancel | order | item
+8,cancel | order | item,6,service,0.033949503027890994,cancel | order | item
+8,cancel | order | item,7,later,0.029342155423415225,cancel | order | item
+8,cancel | order | item,8,stock,0.02925062291255095,cancel | order | item
+8,cancel | order | item,9,place,0.025569031112470903,cancel | order | item
+8,cancel | order | item,10,didnt,0.02497695847193089,cancel | order | item
+9,onlin | order | shop,1,onlin,0.1662676843092823,onlin | order | shop
+9,onlin | order | shop,2,order,0.08741806215138231,onlin | order | shop
+9,onlin | order | shop,3,shop,0.07574508289824723,onlin | order | shop
+9,onlin | order | shop,4,service,0.03266745534466594,onlin | order | shop
+9,onlin | order | shop,5,shipping,0.030354920520887608,onlin | order | shop
+9,onlin | order | shop,6,store,0.029726039456421417,onlin | order | shop
+9,onlin | order | shop,7,place,0.0282484150858811,onlin | order | shop
+9,onlin | order | shop,8,item,0.027206431094880766,onlin | order | shop
+9,onlin | order | shop,9,phone,0.025908388034467517,onlin | order | shop
+9,onlin | order | shop,10,wait,0.02510481401595854,onlin | order | shop
+10,size | fit | store,1,size,0.3082407154960477,size | fit | store
+10,size | fit | store,2,fit,0.049497872836416226,size | fit | store
+10,size | fit | store,3,store,0.04568454329371266,size | fit | store
+10,size | fit | store,4,cloth,0.04503247323568047,size | fit | store
+10,size | fit | store,5,small,0.04047062746467339,size | fit | store
+10,size | fit | store,6,jean,0.039197978971942174,size | fit | store
+10,size | fit | store,7,inch,0.030654488699693675,size | fit | store
+10,size | fit | store,8,exchang,0.02604977085038823,size | fit | store
+10,size | fit | store,9,tight,0.025225186199711345,size | fit | store
+10,size | fit | store,10,order,0.02494475025869954,size | fit | store
+11,dress | came | return,1,dress,0.28565291140899957,dress | came | return
+11,dress | came | return,2,came,0.06946003276107111,dress | came | return
+11,dress | came | return,3,return,0.043793760496489906,dress | came | return
+11,dress | came | return,4,order,0.03922699829232042,dress | came | return
+11,dress | came | return,5,bought,0.032308235798467755,dress | came | return
+11,dress | came | return,6,refund,0.030932643057598363,dress | came | return
+11,dress | came | return,7,customer,0.028539778615488714,dress | came | return
+11,dress | came | return,8,sent,0.02703204216404169,dress | came | return
+11,dress | came | return,9,come,0.024362811276917407,dress | came | return
+11,dress | came | return,10,service,0.02415374837942058,dress | came | return
