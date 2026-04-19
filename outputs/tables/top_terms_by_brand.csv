@@ -3,7 +3,7 @@ H&M,1,order,2825
 H&M,2,customer,1423
 H&M,3,service,1411
 H&M,4,item,970
-H&M,5,onlin,934
+H&M,5,online,934
 H&M,6,shipping,848
 H&M,7,delivery,816
 H&M,8,store,681
@@ -13,7 +13,7 @@ H&M,11,return,598
 H&M,12,shop,581
 H&M,13,parcel,556
 H&M,14,week,527
-H&M,15,wait,518
+H&M,15,waiting,518
 H&M,16,email,438
 H&M,17,place,422
 H&M,18,clothes,413
@@ -28,12 +28,12 @@ ZARA,6,return,586
 ZARA,7,refund,464
 ZARA,8,delivery,405
 ZARA,9,shop,404
-ZARA,10,onlin,398
+ZARA,10,online,398
 ZARA,11,receive,311
 ZARA,12,manager,306
 ZARA,13,clothes,269
 ZARA,14,staff,245
-ZARA,15,wait,234
+ZARA,15,waiting,234
 ZARA,16,receipt,232
 ZARA,17,exchang,217
 ZARA,18,parcel,211
@@ -54,7 +54,7 @@ SHEIN,12,sent,212
 SHEIN,13,arrive,200
 SHEIN,14,repli,189
 SHEIN,15,evri,176
-SHEIN,16,wait,174
+SHEIN,16,waiting,174
 SHEIN,17,respons,164
 SHEIN,18,miss,148
 SHEIN,19,week,141

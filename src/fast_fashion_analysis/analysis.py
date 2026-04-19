@@ -21,6 +21,8 @@ TOKEN_NORMALIZATION = {
     "deliver": "delivery",
     "shipment": "shipping",
     "ship": "shipping",
+    "onlin": "online",
+    "wait": "waiting",
     "order": "order",
     "parcel": "parcel",
     "packag": "parcel",

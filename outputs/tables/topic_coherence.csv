@@ -6,16 +6,17 @@ LDA,3,customer | service | item,0.5165360656353261
 LDA,4,clothes | store | staff,0.5183935253740124
 LDA,5,customer | service | store,0.5950963558853075
 LDA,overall,overall,0.5597422374682894
-BERTopic,-1,order | item | receive,0.5722948592846635
-BERTopic,0,delivery | parcel | order,0.5933169738713532
-BERTopic,1,return | refund | item,0.5539442796837133
-BERTopic,2,store | staff | exchang,0.5822797982231387
-BERTopic,3,size | clothes | quality,0.6486342018921022
-BERTopic,4,shipping | order | week,0.5811072099130177
-BERTopic,5,customer | service | manager,0.39477346208198594
-BERTopic,6,card | gift | credit,0.47409063615476266
-BERTopic,7,wrong | sent | item,0.4704483663770068
-BERTopic,8,cancel | order | item,0.4502067774434118
-BERTopic,9,onlin | shop | order,0.4348464760894119
-BERTopic,10,dress | came | return,0.4600620149399933
-BERTopic,overall,overall,0.5180004213295467
+BERTopic,-1,order | receive | item,0.6003993470144439
+BERTopic,0,store | staff | exchang,0.5620037614241273
+BERTopic,1,return | refund | item,0.5769888340315534
+BERTopic,2,size | clothes | quality,0.7216771535476815
+BERTopic,3,delivery | parcel | arrive,0.5353004259963351
+BERTopic,4,shipping | order | place,0.6095112246916228
+BERTopic,5,service | customer | phone,0.423962325830348
+BERTopic,6,card | gift | credit,0.4973140463593251
+BERTopic,7,wrong | sent | item,0.48113650048031664
+BERTopic,8,cancel | order | item,0.4862843768786256
+BERTopic,9,online | shop | order,0.4970612409506415
+BERTopic,10,christma | decemb | present,0.6308628849764382
+BERTopic,11,dress | came | return,0.4579414585219932
+BERTopic,overall,overall,0.5446495062079578
