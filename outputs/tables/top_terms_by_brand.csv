@@ -5,20 +5,20 @@ H&M,3,service,1411
 H&M,4,item,970
 H&M,5,onlin,934
 H&M,6,shipping,848
-H&M,7,store,681
-H&M,8,receive,674
-H&M,9,refund,639
-H&M,10,return,598
-H&M,11,shop,581
-H&M,12,parcel,556
-H&M,13,week,527
-H&M,14,wait,518
-H&M,15,delivery,501
+H&M,7,delivery,816
+H&M,8,store,681
+H&M,9,receive,674
+H&M,10,refund,639
+H&M,11,return,598
+H&M,12,shop,581
+H&M,13,parcel,556
+H&M,14,week,527
+H&M,15,wait,518
 H&M,16,email,438
 H&M,17,place,422
-H&M,18,cloth,413
+H&M,18,clothes,413
 H&M,19,size,380
-H&M,20,deliv,315
+H&M,20,want,292
 ZARA,1,customer,1256
 ZARA,2,service,1145
 ZARA,3,order,691
@@ -26,13 +26,13 @@ ZARA,4,item,641
 ZARA,5,store,638
 ZARA,6,return,586
 ZARA,7,refund,464
-ZARA,8,shop,404
-ZARA,9,onlin,398
-ZARA,10,receive,311
-ZARA,11,manager,306
-ZARA,12,cloth,269
-ZARA,13,staff,245
-ZARA,14,delivery,235
+ZARA,8,delivery,405
+ZARA,9,shop,404
+ZARA,10,onlin,398
+ZARA,11,receive,311
+ZARA,12,manager,306
+ZARA,13,clothes,269
+ZARA,14,staff,245
 ZARA,15,wait,234
 ZARA,16,receipt,232
 ZARA,17,exchang,217
@@ -47,35 +47,35 @@ SHEIN,5,return,597
 SHEIN,6,receive,559
 SHEIN,7,refund,549
 SHEIN,8,parcel,537
-SHEIN,9,contact,456
-SHEIN,10,email,259
-SHEIN,11,delivery,255
-SHEIN,12,deliv,234
-SHEIN,13,sent,212
-SHEIN,14,arriv,200
-SHEIN,15,repli,189
-SHEIN,16,evri,176
-SHEIN,17,wait,174
-SHEIN,18,respons,164
-SHEIN,19,miss,148
-SHEIN,20,week,141
+SHEIN,9,delivery,489
+SHEIN,10,contact,456
+SHEIN,11,email,259
+SHEIN,12,sent,212
+SHEIN,13,arrive,200
+SHEIN,14,repli,189
+SHEIN,15,evri,176
+SHEIN,16,wait,174
+SHEIN,17,respons,164
+SHEIN,18,miss,148
+SHEIN,19,week,141
+SHEIN,20,help,136
 Urban Outfitters,1,order,1191
 Urban Outfitters,2,receive,482
 Urban Outfitters,3,item,464
-Urban Outfitters,4,cancel,360
-Urban Outfitters,5,service,303
-Urban Outfitters,6,customer,282
-Urban Outfitters,7,email,274
-Urban Outfitters,8,gift,257
-Urban Outfitters,9,delivery,249
-Urban Outfitters,10,arriv,229
+Urban Outfitters,4,delivery,432
+Urban Outfitters,5,cancel,360
+Urban Outfitters,6,service,303
+Urban Outfitters,7,customer,282
+Urban Outfitters,8,email,274
+Urban Outfitters,9,gift,257
+Urban Outfitters,10,arrive,229
 Urban Outfitters,11,christma,219
 Urban Outfitters,12,card,207
 Urban Outfitters,13,parcel,207
-Urban Outfitters,14,deliv,183
-Urban Outfitters,15,stock,172
-Urban Outfitters,16,sent,145
-Urban Outfitters,17,refund,136
-Urban Outfitters,18,return,133
-Urban Outfitters,19,didnt,131
-Urban Outfitters,20,voucher,129
+Urban Outfitters,14,stock,172
+Urban Outfitters,15,sent,145
+Urban Outfitters,16,refund,136
+Urban Outfitters,17,return,133
+Urban Outfitters,18,didnt,131
+Urban Outfitters,19,voucher,129
+Urban Outfitters,20,purchas,125

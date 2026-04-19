@@ -1,22 +1,21 @@
 model,topic_id,topic_label,coherence_cv
-LDA,0,item | return | refund,0.5616633051640764
-LDA,1,store | shop | return,0.5694436482911863
-LDA,2,order | shipping | delivery,0.5718444271536421
-LDA,3,cloth | quality | size,0.6536226884252138
-LDA,4,customer | service | onlin,0.4554278186928983
-LDA,5,parcel | order | receive,0.5702950013341802
-LDA,overall,overall,0.5637161481768661
-BERTopic,-1,order | receive | service,0.571619247603752
-BERTopic,0,store | staff | customer,0.54608361457704
-BERTopic,1,return | refund | item,0.5410425326486871
-BERTopic,2,delivery | parcel | deliv,0.564296028022876
-BERTopic,3,shipping | order | place,0.577179031728895
-BERTopic,4,cloth | quality | shirt,0.5587182611695864
-BERTopic,5,card | gift | payment,0.5334539452407868
-BERTopic,6,customer | service | manager,0.41019985350594695
-BERTopic,7,wrong | sent | item,0.5014071355573273
-BERTopic,8,cancel | order | item,0.48168867727970144
-BERTopic,9,onlin | order | shop,0.4964008429051304
-BERTopic,10,size | fit | store,0.48643821441826507
-BERTopic,11,dress | came | return,0.4383040246312656
-BERTopic,overall,overall,0.5159101084068662
+LDA,0,order | shipping | item,0.5682084145315256
+LDA,1,delivery | parcel | order,0.5936473433074632
+LDA,2,refund | return | item,0.5665717200761019
+LDA,3,customer | service | item,0.5165360656353261
+LDA,4,clothes | store | staff,0.5183935253740124
+LDA,5,customer | service | store,0.5950963558853075
+LDA,overall,overall,0.5597422374682894
+BERTopic,-1,order | item | receive,0.5722948592846635
+BERTopic,0,delivery | parcel | order,0.5933169738713532
+BERTopic,1,return | refund | item,0.5539442796837133
+BERTopic,2,store | staff | exchang,0.5822797982231387
+BERTopic,3,size | clothes | quality,0.6486342018921022
+BERTopic,4,shipping | order | week,0.5811072099130177
+BERTopic,5,customer | service | manager,0.39477346208198594
+BERTopic,6,card | gift | credit,0.47409063615476266
+BERTopic,7,wrong | sent | item,0.4704483663770068
+BERTopic,8,cancel | order | item,0.4502067774434118
+BERTopic,9,onlin | shop | order,0.4348464760894119
+BERTopic,10,dress | came | return,0.4600620149399933
+BERTopic,overall,overall,0.5180004213295467

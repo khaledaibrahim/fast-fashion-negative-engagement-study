@@ -10,10 +10,9 @@ BERTopic,,"In-Store Staff, Policy & Queue Problems",Low Service Quality,"Store m
 BERTopic,,Poor Quality & Cheap Products,Low Service Quality,Poor product quality and cheapness reflect core product-related service failure.
 BERTopic,,Shipping Delays & Online Fulfilment,Low Service Quality,Shipping and fulfilment delays indicate operational low service quality in online ordering.
 BERTopic,,cancel | order | item,,
-BERTopic,,delivery | parcel | deliv,,
+BERTopic,,delivery | parcel | order,,
 BERTopic,,dress | came | return,,
-BERTopic,,onlin | order | shop,,
+BERTopic,,onlin | shop | order,,
 BERTopic,,return | refund | item,,
-BERTopic,,size | fit | store,,
-BERTopic,,store | staff | customer,,
+BERTopic,,store | staff | exchang,,
 BERTopic,,wrong | sent | item,,

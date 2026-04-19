@@ -1,25 +1,25 @@
 brand,dominant_topic_label,n_reviews,pct_reviews,publication_label
-H&M,order | shipping | delivery,654,39.35018050541516,"Gift Cards, Refunds & Payment Recovery"
-H&M,customer | service | onlin,321,19.314079422382672,"Delivery, Non-Receipt & Shipping Delays"
-H&M,cloth | quality | size,225,13.537906137184116,Customer Service Failures & Staff Conduct
-H&M,item | return | refund,166,9.987966305655837,"Payment, Vouchers & Website Issues"
-H&M,store | shop | return,154,9.265944645006018,"Product Quality, Size & Wrong Items"
-H&M,parcel | order | receive,142,8.543922984356197,"Returns, Refunds & Service Recovery"
-ZARA,customer | service | onlin,258,29.655172413793103,"Delivery, Non-Receipt & Shipping Delays"
-ZARA,store | shop | return,193,22.183908045977013,"Product Quality, Size & Wrong Items"
-ZARA,cloth | quality | size,176,20.229885057471265,Customer Service Failures & Staff Conduct
-ZARA,item | return | refund,93,10.689655172413794,"Payment, Vouchers & Website Issues"
-ZARA,parcel | order | receive,79,9.080459770114942,"Returns, Refunds & Service Recovery"
-ZARA,order | shipping | delivery,71,8.160919540229886,"Gift Cards, Refunds & Payment Recovery"
-SHEIN,item | return | refund,430,42.28121927236972,"Payment, Vouchers & Website Issues"
-SHEIN,parcel | order | receive,218,21.43559488692232,"Returns, Refunds & Service Recovery"
-SHEIN,order | shipping | delivery,154,15.142576204523108,"Gift Cards, Refunds & Payment Recovery"
-SHEIN,cloth | quality | size,103,10.127826941986234,Customer Service Failures & Staff Conduct
-SHEIN,customer | service | onlin,98,9.636184857423796,"Delivery, Non-Receipt & Shipping Delays"
-SHEIN,store | shop | return,14,1.376597836774828,"Product Quality, Size & Wrong Items"
-Urban Outfitters,order | shipping | delivery,394,39.04856293359762,"Gift Cards, Refunds & Payment Recovery"
-Urban Outfitters,parcel | order | receive,281,27.849355797819623,"Returns, Refunds & Service Recovery"
-Urban Outfitters,item | return | refund,162,16.055500495540137,"Payment, Vouchers & Website Issues"
-Urban Outfitters,cloth | quality | size,71,7.0366699702675914,Customer Service Failures & Staff Conduct
-Urban Outfitters,customer | service | onlin,52,5.153617443012884,"Delivery, Non-Receipt & Shipping Delays"
-Urban Outfitters,store | shop | return,49,4.856293359762141,"Product Quality, Size & Wrong Items"
+H&M,order | shipping | item,734,44.163658243080626,"Payment, Vouchers & Website Issues"
+H&M,customer | service | store,277,16.666666666666668,"Returns, Refunds & Service Recovery"
+H&M,clothes | store | staff,235,14.1395908543923,"Delivery, Non-Receipt & Shipping Delays"
+H&M,delivery | parcel | order,161,9.687123947051745,"Product Quality, Size & Wrong Items"
+H&M,refund | return | item,128,7.701564380264741,"Gift Cards, Refunds & Payment Recovery"
+H&M,customer | service | item,127,7.641395908543923,Customer Service Failures & Staff Conduct
+ZARA,customer | service | store,272,31.264367816091955,"Returns, Refunds & Service Recovery"
+ZARA,clothes | store | staff,250,28.735632183908045,"Delivery, Non-Receipt & Shipping Delays"
+ZARA,refund | return | item,100,11.494252873563218,"Gift Cards, Refunds & Payment Recovery"
+ZARA,delivery | parcel | order,90,10.344827586206897,"Product Quality, Size & Wrong Items"
+ZARA,customer | service | item,88,10.114942528735632,Customer Service Failures & Staff Conduct
+ZARA,order | shipping | item,70,8.045977011494253,"Payment, Vouchers & Website Issues"
+SHEIN,refund | return | item,420,41.29793510324484,"Gift Cards, Refunds & Payment Recovery"
+SHEIN,delivery | parcel | order,186,18.289085545722713,"Product Quality, Size & Wrong Items"
+SHEIN,order | shipping | item,156,15.339233038348082,"Payment, Vouchers & Website Issues"
+SHEIN,customer | service | item,122,11.9960668633235,Customer Service Failures & Staff Conduct
+SHEIN,clothes | store | staff,81,7.964601769911504,"Delivery, Non-Receipt & Shipping Delays"
+SHEIN,customer | service | store,52,5.11307767944936,"Returns, Refunds & Service Recovery"
+Urban Outfitters,order | shipping | item,461,45.68880079286422,"Payment, Vouchers & Website Issues"
+Urban Outfitters,delivery | parcel | order,180,17.839444995044598,"Product Quality, Size & Wrong Items"
+Urban Outfitters,customer | service | item,157,15.559960356788899,Customer Service Failures & Staff Conduct
+Urban Outfitters,refund | return | item,109,10.802775024777008,"Gift Cards, Refunds & Payment Recovery"
+Urban Outfitters,clothes | store | staff,52,5.153617443012884,"Delivery, Non-Receipt & Shipping Delays"
+Urban Outfitters,customer | service | store,50,4.955401387512389,"Returns, Refunds & Service Recovery"

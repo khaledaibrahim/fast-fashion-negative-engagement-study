@@ -24,6 +24,8 @@ TOKEN_NORMALIZATION = {
     "order": "order",
     "parcel": "parcel",
     "packag": "parcel",
+    "arriv": "arrive",
+    "deliv": "delivery",
     "receiv": "receive",
     "reciev": "receive",
     "return": "return",
@@ -49,6 +51,7 @@ TOKEN_NORMALIZATION = {
     "horribl": "horrible",
     "bad": "bad",
     "hate": "hate",
+    "cloth": "clothes",
 }
 
 CUSTOM_STOPWORDS = {
@@ -60,7 +63,6 @@ CUSTOM_STOPWORDS = {
     "outfitters",
     "brand",
     "company",
-    "clothes",
     "wa",
     "ha",
     "thei",
